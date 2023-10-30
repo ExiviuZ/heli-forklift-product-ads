@@ -73,6 +73,7 @@ main {
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .brand-name {
@@ -115,13 +116,34 @@ main {
 }
 
 footer {
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   padding: 4rem 2rem;
   background-color: #333;
 }
 
 .footer-logo {
   max-width: 250px;
+  margin: auto;
+}
+
+.wrap-social-icons {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social-icons {
+  margin: auto;
+  width: max-content;
+  display: inline-block;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  gap: 1rem;
 }
 
 @media (max-width: 700px) {

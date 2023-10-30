@@ -50,6 +50,7 @@ main {
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .brand-name {
@@ -126,6 +127,26 @@ h1 {
 
 .back:hover {
   background-color: #c80025c9;
+}
+
+.wrap-social-icons {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social-icons {
+  margin: auto;
+  width: max-content;
+  display: inline-block;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  gap: 1rem;
 }
 
 @media (max-width: 700px) {

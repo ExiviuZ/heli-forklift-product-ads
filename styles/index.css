@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: calc(1em + 0.5rem);
+  color: black;
+}
+
+img,
+video,
+canvas,
+picture,
+svg {
+  width: 100%;
+  display: block;
+}
+
+header a:hover,
+h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+main,
+header,
+footer {
+  padding-inline: 2rem;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+header {
+  padding-block: 2rem;
+}
+
+.banner-container {
+  height: 400px;
+  margin-bottom: 2rem;
+}
+
+.banner-img {
+  height: 100%;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+main {
+  margin-bottom: 4rem;
+}
+.brand-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand-name {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.brand-logo {
+  width: 80px;
+}
+
+.categories-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem 3rem;
+}
+
+.showcase-img-container {
+  min-height: 310px;
+}
+
+.showcase-img-container:hover .showcase-img {
+  transform: scale(1.03);
+}
+
+.showcase-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.25s ease-in-out;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase-description {
+  font-size: 0.9rem;
+}
+
+footer {
+  color: white;
+  padding: 4rem 2rem;
+  background-color: #333;
+}
+
+.footer-logo {
+  max-width: 250px;
+}
+
+@media (max-width: 700px) {
+  .categories-container {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .showcase-img-container {
+    min-height: auto;
+  }
+}

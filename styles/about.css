@@ -100,3 +100,10 @@ footer {
   padding: 0;
   gap: 1rem;
 }
+
+.contact {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

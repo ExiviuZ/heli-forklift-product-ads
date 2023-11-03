@@ -37,7 +37,6 @@ h2 {
 
 header {
   gap: 2rem;
-  flex-wrap: wrap;
   padding-block: 2rem;
   display: flex;
   align-items: center;
@@ -50,6 +49,7 @@ main {
 
 .brand-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
 }

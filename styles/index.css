@@ -67,6 +67,7 @@ header {
 }
 
 main {
+  background-color: red;
   margin-bottom: 4rem;
 }
 .brand-container {
